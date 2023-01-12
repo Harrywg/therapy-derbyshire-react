@@ -12,13 +12,11 @@ import ReactLoading from "react-loading";
 export default class App extends React.Component {
   state = {
     loadingState: 1,
-    displayContent: 'none'
   }
   componentDidMount = () => {
     setTimeout(() => {
       this.setState({
         loadingState: 0,
-        displayContent: 'block'
       })
     }, 1000)
 
