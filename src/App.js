@@ -16,12 +16,11 @@ export default class App extends React.Component {
   }
   componentDidMount = () => {
     setTimeout(() => {
-
       this.setState({
         loadingState: 0,
         displayContent: 'block'
       })
-    }, 500)
+    }, 1000)
 
   }
   render() {
