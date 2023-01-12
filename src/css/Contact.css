@@ -1,0 +1,62 @@
+#contact {
+    background: var(--blue);
+    padding: 3rem 0;
+}
+
+#contact-icon {
+    display: block;
+    margin: 1rem auto;
+    width: 5rem;
+    filter: invert(100%);
+}
+
+#contact h1 {
+    font-family: Open-Sans-Bold;
+    font-size: 3rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 720px) {
+    #contact h1 {
+        font-size: 2rem;
+    }
+}
+
+#contact-form {
+    pointer-events: all;
+    max-width: 50rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+#contact-form input {
+    display: block;
+    padding: 0.5rem;
+    width: clamp(15rem, 80vw, 40rem);
+    margin: 1rem auto;
+    border: 0;
+    outline: 0;
+    font-family: Nunito;
+    font-size: 1.1rem;
+}
+
+#contact-form textarea {
+    display: block;
+    padding: 0.5rem;
+    width: clamp(15rem, 80vw, 40rem);
+    margin: 1rem auto;
+    border: 0;
+    outline: 0;
+    font-family: Nunito;
+    font-size: 1.1rem;
+    height: 10rem;
+    resize: none;
+}
+
+#contact-form button {
+    display: block;
+    margin: auto;
+
+}

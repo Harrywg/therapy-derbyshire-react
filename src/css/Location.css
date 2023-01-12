@@ -1,0 +1,114 @@
+#location {
+    overflow: hidden;
+}
+
+#location h1 {
+    font-family: Open-Sans-Bold;
+    margin: 1rem;
+    margin-top: -1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#location-text p {
+    font-family: Nunito;
+    font-size: 1.3rem;
+    max-width: 1000px;
+}
+
+@media(max-width: 720px) {
+    #location h1 {
+        font-size: 2rem;
+    }
+}
+
+#location a {
+    color: var(--blue);
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+#location a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#location-text {
+    margin: 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#gmap-embed {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    height: 70vh;
+    border: 0;
+    pointer-events: all;
+    overflow: hidden;
+}
+
+
+
+
+#location-quote-rainbow-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* 
+#fe2f73
+#ff444d
+#ff4b26
+#ff872e
+#ffe733
+#70dd2a 
+*/
+.rainbow-element:nth-child(1) {
+    height: 16.66666666666667%;
+    background: #fe2f73;
+}
+
+.rainbow-element:nth-child(2) {
+    height: 16.66666666666667%;
+    background: #ff444d;
+}
+
+.rainbow-element:nth-child(3) {
+    height: 16.66666666666667%;
+    background: #ff4b26;
+}
+
+.rainbow-element:nth-child(4) {
+    height: 16.66666666666667%;
+    background: #ff872e;
+}
+
+.rainbow-element:nth-child(5) {
+    height: 16.66666666666667%;
+    background: #ffe733;
+}
+
+.rainbow-element:nth-child(6) {
+    height: 16.66666666666667%;
+    background: #70dd2a;
+}
+
+#location-quote-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#location-quote {
+    margin-top: 2px;
+    height: 40vh;
+}

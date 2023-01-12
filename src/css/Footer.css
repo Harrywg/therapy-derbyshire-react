@@ -1,0 +1,50 @@
+#footer {
+    padding: 1rem;
+    max-width: 70rem;
+    margin: auto;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+
+}
+
+#footer p {
+    color: rgb(82, 82, 82);
+    font-style: normal !important;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer-bottom {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#footer-title {
+    font-weight: normal;
+    margin: 2rem 0;
+}
+
+#footer-cols {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#footer-content-col {
+    font-size: 0.9rem;
+    font-style: italic;
+    gap: 0.5rem;
+    text-align: right;
+}

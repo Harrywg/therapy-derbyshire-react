@@ -1,0 +1,154 @@
+:root {
+  --blue: #3696d0;
+  --white: white;
+  pointer-events: none;
+}
+
+html {
+  pointer-events: none;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  pointer-events: all;
+}
+
+p {
+  pointer-events: all;
+}
+
+a {
+  pointer-events: all;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Open-Sans;
+  margin: 0;
+  background-color: var(--white);
+  pointer-events: none;
+}
+
+#main {
+  pointer-events: none;
+}
+
+#head-wrap {
+  pointer-events: all;
+  overflow: hidden;
+  /* if changed adjust Home.css #home height */
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-title {
+  margin: 3rem;
+  font-family: Nunito;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 2.7rem;
+  text-align: left;
+  transition: filter 0.2s, transform 0.2s;
+  /* manual adjust as font seems low */
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+}
+
+@media (max-width: 460px) {
+  #page-title {
+    font-size: 2rem;
+    margin: auto;
+  }
+}
+
+#page-title:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 5px var(--white))
+}
+
+#page-title:active {
+  transform: scale(0.9)
+}
+
+#navbar {
+  color: var(--white);
+  margin: 2rem;
+}
+
+#navbar span {
+  font-weight: 400;
+  margin: 1rem;
+}
+
+#navbar>* {
+  font-size: 1.1rem;
+}
+
+#navbar-1 {
+  background: 0;
+  border: 0;
+  outline: 0;
+  color: var(--white)
+}
+
+#navbar-1:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+#navbar-1:active {
+  transform: scale(0.9);
+}
+
+#navbar-2 {}
+
+
+
+#navbar-2:hover {
+  cursor: pointer;
+
+}
+
+#page-title b {
+  font-weight: 600;
+}
+
+.page-wrap {
+  pointer-events: none;
+}
+
+#home-border {
+  position: absolute;
+  top: 10vh;
+  width: 100vw;
+  height: 90vh;
+  margin-top: -10px;
+  margin-left: -10px;
+  border: 0.4rem solid white;
+  border-top: 0;
+  border-radius: 30px;
+  transform: scale(0.9);
+  z-index: -1;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  pointer-events: none;
+}
+
+@media(max-width: 960px) {
+  #head2 {
+    display: none;
+  }
+
+  #head1 {
+    margin: 0 auto;
+  }
+}
