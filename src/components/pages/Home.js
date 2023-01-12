@@ -7,6 +7,7 @@ function scroll(idString) {
     window.scrollTo(rect.x, rect.y);
 }
 export default function Home() {
+
     return (
         <div className="page-wrap">
             <div id="home">
