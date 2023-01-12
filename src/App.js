@@ -22,7 +22,7 @@ export default class App extends React.Component {
         loadingHeight: 'auto',
         loadingOverflow: 'visible'
       })
-    }, 1000)
+    }, 500)
 
   }
   render() {
