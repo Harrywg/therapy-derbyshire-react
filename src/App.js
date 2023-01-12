@@ -16,10 +16,15 @@ export default class App extends React.Component {
   }
   componentDidMount = () => {
     setTimeout(() => {
-      this.setState({
-        loadingState: 0,
-        displayContent: 'block'
-      })
+      let image = new Image();
+      image.src = "https://media.istockphoto.com/id/1138257835/photo/closeup-of-woman-playing-with-child.jpg?s=612x612&w=0&k=20&c=n0xO_PAssVrAFsrsTO3asJ0sgc80Lz_ZeBJjZJzy_68=";
+      image.onload(
+        this.setState({
+          loadingState: 0,
+          displayContent: 'block'
+        })
+      )
+
 
     }, 500);
 
