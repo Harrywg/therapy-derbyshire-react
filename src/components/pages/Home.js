@@ -1,7 +1,7 @@
 import '../../css/Home.css'
 import hand from '../../images/icons/goodwill.png'
 import WaveButton from '../other/WaveButton'
-
+import headerImage from '../../images/header-image.jpg'
 function scroll(idString) {
     let rect = document.getElementById(idString).getBoundingClientRect();
     window.scrollTo(rect.x, rect.y);
@@ -18,7 +18,7 @@ export default function Home() {
                             <h1>Children, Teenagers, Parents, Carers and Professionals.</h1>
                             <img id="hand" src={hand} alt=""></img>
                         </div>
-                        <img id="home-image" src="https://media.istockphoto.com/id/1138257835/photo/closeup-of-woman-playing-with-child.jpg?s=612x612&w=0&k=20&c=n0xO_PAssVrAFsrsTO3asJ0sgc80Lz_ZeBJjZJzy_68="></img>
+                        <img id="home-image" src={headerImage}></img>
                     </div>
                     <div id="tagline-wrap-mobile">
                         <p>Therapy services for <br></br>Children, Teenagers, Parents, Carers and Professionals.</p>
