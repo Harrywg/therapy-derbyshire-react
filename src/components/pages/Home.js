@@ -18,7 +18,7 @@ export default function Home() {
                             <h1>Children, Teenagers, Parents, Carers and Professionals.</h1>
                             <img id="hand" src={hand} alt=""></img>
                         </div>
-                        <img id="home-image" src={headerImage}></img>
+                        <img id="home-image" loading="lazy" src={headerImage}></img>
                     </div>
                     <div id="tagline-wrap-mobile">
                         <p>Therapy services for <br></br>Children, Teenagers, Parents, Carers and Professionals.</p>
