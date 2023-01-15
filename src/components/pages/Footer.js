@@ -17,7 +17,7 @@ export default function Footer() {
                 </div>
                 <div className="footer-col">
                     <p>therapyderbyshire@outlook.com</p>
-                    <p>Sarah Gray : 07941343450</p>
+                    {/* <p>Sarah Gray : 07941343450</p> */}
 
 
                 </div>
