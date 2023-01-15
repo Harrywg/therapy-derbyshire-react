@@ -12,11 +12,22 @@ export default function About() {
                     <img id="about-friends" src={friends}></img>
                 </div>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aspernatur, quas, inventore earum excepturi reprehenderit quasi consequatur omnis culpa dolorem dolor tempora, minima consectetur amet. Iusto culpa possimus illo quidem.
+                    Therapy Derbyshire was setup by Sarah Gray in
+                    Cromford Mill, Derbyshire,
+                    collaborating with co-workers and colleagues.
                 </p>
-
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aspernatur, quas, inventore earum excepturi reprehenderit quasi consequatur omnis culpa dolorem dolor tempora, minima consectetur amet. Iusto culpa possimus illo quidem.
+                <p>
+                    Sarah is a Social Worker, Play Therapist, EMDR Therapist, Supervisor, Systemic Family
+                    Practitioner, Eating Disorder Specialist with over 40 years’ experience working with young
+                    people and their families and carers.
                 </p>
+                <p>Sarah has worked for 20 years as Clinical Lead for
+                    CAMHS (Child and Adolescent Mental Health Services) as well as extensive work with young
+                    people who have experience of the Care System.
+                </p>
+                {/* <p>Sarah works from a Therapy Room at
+                    Cromford Mill, Derbyshire which she shares with other therapists and counsellors.
+                </p> */}
             </div>
             <div id="about-sidebar-wrap">
                 <div id="about-sidebar-wrap-top">

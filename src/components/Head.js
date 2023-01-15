@@ -9,7 +9,6 @@ export default function Head() {
     background.src = "../images/drawn-background-cropped.jpg"
     let image = new Image();
     image.src = "https://media.istockphoto.com/id/1138257835/photo/closeup-of-woman-playing-with-child.jpg?s=612x612&w=0&k=20&c=n0xO_PAssVrAFsrsTO3asJ0sgc80Lz_ZeBJjZJzy_68="
-    console.log(image)
     return (
         <div id="head-wrap">
             <span id="head1">

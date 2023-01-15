@@ -16,7 +16,9 @@ export default function Footer() {
 
                 </div>
                 <div className="footer-col">
-                    <a>therapyderbyshire@outlook.com</a>
+                    <p>therapyderbyshire@outlook.com</p>
+                    <p>Sarah Gray : 07941343450</p>
+
 
                 </div>
                 <div className="footer-col" id="footer-content-col">
