@@ -10,9 +10,9 @@ export default function Footer() {
             <div id="footer-cols">
 
                 <div className="footer-col">
-                    <a>BAPT Website</a>
-                    <a>What is BAPT</a>
-                    <a>Cromford Mills Website</a>
+                    <a target="_blank" href='https://www.bapt.info/'>BAPT Website</a>
+                    <a target="_blank" href='./what-is-bapt.pdf'>What is BAPT</a>
+                    <a target="_blank" href='https://www.cromfordmills.org.uk/'>Cromford Mills Website</a>
 
                 </div>
                 <div className="footer-col">
@@ -27,7 +27,7 @@ export default function Footer() {
                     </a>
                     <a href="https://www.flaticon.com/packs/therapy-55?style_id=1&family_id=1&group_id=1" target="_blank">Flaticon : Icon Pack: Therapy | Flat
                     </a>
-                    <a>Flaticon : Icon Pack: Stay Home | Lineal
+                    <a target="_blank" href="https://www.flaticon.com/packs/stay-at-home-119">Flaticon : Icon Pack: Stay Home | Lineal
                     </a>
                     <a target="_blank" href="https://www.freepik.com/free-vector/park-outdoor-scene-with-flower-field-blank-meadow_16845812.htm#query=cartoon%20garden&position=0&from_view=keyword">Freepik : Image by brgfx</a>
                     <a target="_blank" href="https://www.flickr.com/photos/leanne_walker/albums/?giftPro">Artwork by Leanne Walker</a>
