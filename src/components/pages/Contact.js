@@ -15,7 +15,7 @@ function handleFormSubmit(e) {
     document.getElementById('form-loading').classList.add('form-loading-active')
 
     e.preventDefault();
-    fetch("https://formsubmit.co/ajax/wardgray24@gmail.com", {
+    fetch("https://formsubmit.co/ajax/therapyderbyshire@outlook.com", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json',
