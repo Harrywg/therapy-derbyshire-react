@@ -34,8 +34,8 @@ export default function Footer() {
                 </div>
             </div>
             <div id="footer-bottom">
-                <p>© {getCurrentYear()} Therapy Derbyshire</p>
+                <p>© {getCurrentYear()} Therapy Derbyshire | Website developed by <a target='_blank' style={{ color: 'var(--blue)' }} href='https://github.com/Harrywg'>Harry Ward-Gray</a></p>
             </div>
 
-        </div>)
+        </div >)
 }
