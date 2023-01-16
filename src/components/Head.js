@@ -1,6 +1,6 @@
 //for style see index.css
 import WaveButton from './other/WaveButton'
-import headerImage from '../images/header-image.jpg'
+import headerImage from '../images/header-image-min.jpg'
 import backgroundImage from '../images/drawn-background-cropped.jpg'
 function scroll(idString) {
     let rect = document.getElementById(idString).getBoundingClientRect();

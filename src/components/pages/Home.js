@@ -1,7 +1,7 @@
 import '../../css/Home.css'
 import hand from '../../images/icons/goodwill.png'
 import WaveButton from '../other/WaveButton'
-import headerImage from '../../images/header-image.jpg'
+import headerImage from '../../images/header-image-min.jpg'
 function scroll(idString) {
     let rect = document.getElementById(idString).getBoundingClientRect();
     window.scrollTo(rect.x, rect.y);
