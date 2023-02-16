@@ -8,7 +8,7 @@ export default function Location() {
             <div id="location-text">
                 <h1>Come and meet us at <a href="https://www.cromfordmills.org.uk/" target="_blank">Cromford Mills</a></h1>
                 <p>
-                    We are based in a theraputic environment in the historically important Cromford Mill, surrounded by local walks, cafés and independant local shops/businesses.</p><p> Initial contact can take place over the phone when we will decide if you would like to meet
+                    We are based in a therapeutic environment in the historically important Cromford Mill, surrounded by local walks, cafés and independant local shops/businesses.</p><p> Initial contact can take place over the phone when we will decide if you would like to meet
                         up face to face or virtually to discuss what therapy or support is available.
 
                 </p>
