@@ -12,7 +12,7 @@ One of my freelance clients kindly let me publicly share their custom site I dev
 1. Present key information about the business.
 2. Direct users to contact the business.
 
-The client was previously using a CMS based site and was looking for a more custom page to suit their brand. As they get most of their traffic from a third party organisation site, the main focus for this website is to make the business seem friendly and approachable and lead users to get in touch. 
+The client was previously using a CMS based site and was looking for a more custom page to suit their brand. As they get most of their traffic from a third party organisation site, the main focus for this website is to make the business seem friendly and approachable and keep user attention, directing them to get in touch. 
 
 ## Challenges
 ### Animations
