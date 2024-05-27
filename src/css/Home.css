@@ -104,8 +104,7 @@
   margin: 8rem 2rem;
   height: 22rem;
   border-radius: 5rem;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+
   display: flex;
   justify-content: center;
 }
