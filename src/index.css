@@ -30,6 +30,7 @@ body {
   margin: 0;
   background-color: var(--white);
   pointer-events: none;
+  overflow: hidden;
 }
 
 #loading {
@@ -91,11 +92,11 @@ body {
 
 #page-title:hover {
   cursor: pointer;
-  filter: drop-shadow(0 0 5px var(--white))
+  filter: drop-shadow(0 0 5px var(--white));
 }
 
 #page-title:active {
-  transform: scale(0.9)
+  transform: scale(0.9);
 }
 
 #navbar {
@@ -108,7 +109,7 @@ body {
   margin: 1rem;
 }
 
-#navbar>* {
+#navbar > * {
   font-size: 1.1rem;
 }
 
@@ -116,7 +117,7 @@ body {
   background: 0;
   border: 0;
   outline: 0;
-  color: var(--white)
+  color: var(--white);
 }
 
 #navbar-1:hover {
@@ -128,13 +129,11 @@ body {
   transform: scale(0.9);
 }
 
-#navbar-2 {}
-
-
+#navbar-2 {
+}
 
 #navbar-2:hover {
   cursor: pointer;
-
 }
 
 #page-title b {
@@ -162,7 +161,7 @@ body {
   pointer-events: none;
 }
 
-@media(max-width: 960px) {
+@media (max-width: 960px) {
   #head2 {
     display: none;
   }
